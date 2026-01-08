@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# VS
+.vs/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+#*.log
+
+# Publish
+wwwroot/dist/
