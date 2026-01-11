@@ -9,10 +9,15 @@
         margin: 3rem auto;
     }
 
-    #publicTalk {
+    #publicTalk,
+    #groupConversation {
         background-color: #25D500;
         border: 3px solid #808080;
         border-radius: 8px;
+    }
+
+    #groupConversation {
+        margin-bottom: 10rem;
     }
 </style>
 
@@ -23,5 +28,17 @@
     <ul id="conversation">
     </ul>
 </div>
-
+<div id="groupConversation" class="container">
+    <div>
+        <input type="text" id="groupNameInp" />
+        <input type="submit" id="joinGroupBtn" value="Join" />
+    </div>
+    <br />
+    <div>
+        <input type="text" id="messageToGroupInp" />
+        <input type="submit" id="sendMessageToGroupBtn" value="Send To Group" />
+    </div>
+    <ul id="groupConversationUL">
+    </ul>
+</div>
 
