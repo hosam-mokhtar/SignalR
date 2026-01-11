@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+<style>
+    .container {
+        padding: 3rem;
+        margin: 3rem auto;
+    }
+
+    #publicTalk {
+        background-color: #25D500;
+        border: 3px solid #808080;
+        border-radius: 8px;
+    }
+</style>
+
+<script src="~/js/Chat.js"></script>
+<div id="publicTalk" class="container">
+    <input type="text" id="messageInp" />
+    <input type="submit" id="sendMessageBtn" value="Send" />
+    <ul id="conversation">
+    </ul>
+</div>
+
+
